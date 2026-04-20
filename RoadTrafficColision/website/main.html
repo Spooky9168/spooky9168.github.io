@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Road Traffic Collision</title>
+        <link rel="icon" href="images/icon.png" type="image/png" sizes="24x24">
+        <!--TODO: Replace with no-copyright icon before submition -->
+
+        <link rel="stylesheet" href="styles.css">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+
+        <!-- This script and link is from the leaflet tutorial -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+              integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+              crossorigin="">
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+                integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+                crossorigin=""></script>
+
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+        <!-- This script and link is from the leaflet tutorial -->
+
+        <script src="scripts/heatmap.js"></script>
+        
+    </head>
+
+    <body>
+        <div id="map"> <!--essential to be below header for formatting (layering) purposes-->
+            <script src="scripts/map.js"></script>
+            <script id="OdbToMapSc" src="scripts/obd-to-mapsc.js"></script>
+            <script id="OdbApi" src="scripts/odb-api.js"></script>
+        </div>
+
+
+        <header>
+            <h1 style="text-align: center">Road Traffic Collision</h1>
+            <!-- Removed until I can create the list, might end up repurposing this to point to the heatmap since that-
+            is more in line with the requirements.
+
+            <div id="NavButtons">
+                <a href="List.html"><button class="w3-grey">List</button></a>
+                <button class="w3-dark-grey">Map</button>
+            </div>
+            -->
+            <form class="w3-padding" style="text-align: center" id="filter">
+                <select name="severity" class="w3-border-sand w3-padding-small">
+                    <option value="0">Severity</option>
+                    <option value="Fatal">Fatal</option>
+                    <option value="Serious">Serious</option>
+                    <option value="Slight">Minor</option>
+                </select>
+
+                <select name="Mode" class="w3-border-sand w3-padding-small" id="mode">
+                    <option value="0">Mode</option>
+                    <option value="CARS">Car</option>
+                    <option value="CYC">Cycle</option>
+                    <option value="MCYC">M-Cycle</option>
+                    <option value="Pedestrians">Pedestrian</option>
+                </select>
+
+                <div class="slidercontainer"> 
+                    <input class="sliderchild" type="range" min="-100" max="100" value="0" class="slider" id="timeslider">
+                    <p class="sliderchild" id="timelabel"> 2007/02/02 </p>
+                    <button class="sliderchild" style="height:15px; width:10px"></button>
+                </div>
+
+                <button type="submit" class="w3-border-sand w3-padding-small">Filter</button>
+            </form>
+        </header>
+
+        <script id="slidetimeupdater" src="scripts/slidetimeupdater.js"></script>
+
+        <footer>
+            <p>
+                ©<a href="mailto:Cameron2.Mackie@live.uwe.ac.uk"><span>Cameron Mackie</span></a> | ©<a href="mailto:Ninsang2.Sherpa@live.uwe.ac.uk"><span>Ninsang Sherpa</span></a><br>
+                A project by first year <a href="https://courses.uwe.ac.uk/6F3B/software-engineering">Software Engineering</a> students at the <a href="https://www.uwe.ac.uk">University of the West of England (UWE)</a><br>
+                ©<a href="https://opendata.bristol.gov.uk">2026 Open Data Bristol</a> <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">(OGLv3)</a> | ©<a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> | <a href="https://leafletjs.com/">Leaflet</a><br>
+                Your safety on the road is <b>your responsibility</b>, always follow the <a href="https://www.gov.uk/guidance/the-highway-code">highway code</a> when using the highway's. <b>Don't become a statistic</b>
+            </p>
+        </footer>
+    </body>
+</html>

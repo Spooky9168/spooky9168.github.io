@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="k5edDJM-ocC7F09qZwvw">
+    <mxGraphModel dx="1562" dy="2078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-2" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-20" width="700" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-3" value="Address co..." style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-4" value="https://localhost:0001/adress" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-5" value="Visual map of collisions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="30" y="560" width="630" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-6" value="Menu bar" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="15" y="120" width="670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-7" value="Search" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="40" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;        BS16 1QY&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="30" y="240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-9" value="Enter your new postcode:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="30" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;        BS37 0DE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="30" y="345" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-11" value="Enter your old postcode:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="30" y="315" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-12" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 1 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 2 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 3 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 4 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 5 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 6 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 7 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 8 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 9 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Collision 10 - Fatal - 2 Vehical - Overtaking&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="250" y="190" width="420" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-15" value="&lt;span style=&quot;text-align: left;&quot;&gt;List of 10 serious collisions within a 1* mile radius&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;* to be determined&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="330" y="200" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-16" value="Contact infomation bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry y="1100" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhswq7Zzfa-E813NJiy0-18" value="&lt;pre&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 71px;&quot;&gt;DRAFT&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-35;" vertex="1" parent="Yhswq7Zzfa-E813NJiy0-2">
+          <mxGeometry x="300" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
